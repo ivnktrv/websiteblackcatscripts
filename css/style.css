@@ -52,7 +52,6 @@ a:hover {
     
     max-width: 100%;
     transition: 1s;
-
 }
 
 @keyframes ani {
@@ -97,12 +96,11 @@ a:hover {
 .d{
 
     font-size: 50px;
-
     background: linear-gradient(120deg, rgb(180, 180, 180) 10%, rgb(0, 0, 0) 100%);
     padding: 5px;
     border: 5px solid white;
-    margin-left: 5%;
-    margin-right: 6%;
+    margin-left: 8%;
+    margin-right: 8%;
     border-radius: 10px;
     transition: all 0.3s ease;
 
@@ -163,9 +161,9 @@ a:hover {
 }
 
 .help {
-
+    justify-content: center;
     border: 5px solid white;
-    margin-right: 6%;
+    margin-right: 5%;
     margin-left: 5%;
     background: linear-gradient(80deg, rgb(174, 174, 174) 20%, rgb(0, 0, 0) 100%);
     border-radius: 20px;
@@ -176,7 +174,7 @@ a:hover {
 
     background: linear-gradient(80deg, rgb(162, 162, 162) 50%, rgba(0, 0, 0) 100%);
     animation: gradient 10s infinite linear;
-    background-size: 500%;
+    background-size: 200%;
     transform: scale(1.1);
 }
 
