@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <head>
+
+        <link rel="shortcut icon" href="../icons/mainicon.ico" type="image/x-icon">
+        <title>BlackCatScripts | Гайды</title>
+
+    </head>
+
+    <link href="../css/style.css" rel="stylesheet">
+
+    <body>
+
+        <br><br><br><br>
+
+        <div id="guids"><center>Guids</center></div>
+
+        <br><br><br><br><br><br><br><br><br><br>
+
+        <center><b>Создаём простой batch вирус | Batch script</b></center>
+        <br>
+        <br>
+        <p><center><b>Начинаем!</b></center>
+        <br><br>
+        <b>1. Создаём файл -</b> virus.txt
+        <br><br>
+        <b>2. Впишите вот это:</b>
+        <br><br>
+        @echo off<br>
+        CLS
+        <br><br>
+        <b>3. Потом создаём переменную go (или называйте как хотите) и в ней пишем:
+        <br>(Как это всё будет выглядить)</b><br><br>
+        go:<br>
+        start notepad.exe
+        <br><br>
+       <b> 4.Не забываем дописать -</b> goto go
+        <br><br>
+        <center><b>Итоговый код</b></center>
+        <br><br>
+        @echo off<br>
+        CLS
+        <br><br>
+        go:<br>
+        start notepad.exe<br>
+        goto go
+        <br><br><br>
+        <b>На заметку: notepad.exe - это блокнот</b><br><br><br>
+        <b>5. Сохраняем файл и переименуем его с virus.txt на virus.bat<br><br>
+        Справка:<br><br>
+        Что-бы таким способом поменять расширение файла, следуйте за инструкцией:<br><br>
+        1. Откройте панель управления (win + r, пишите - control panel)<br>
+        2. Ищите "параметры проводника"<br>
+        3. Переходите во вкладку "вид"<br>
+        4. Снимите галочку с "Скрывать расширения для зарегистрированных типов файлов"<br>
+        5. Не забудьте нажать "Ок"<br><br></b>
+        <center><b>Вирус готов!</b></center>
+        </p>
+
+
+
+        <br><br><br><br>
+        
+        <hr>
+
+        <br><br><br><br>
+
+
+
+        <center><b>Создаём первую python программу | Python</b></center>
+        
+        <br><br><br>
+
+        <p><b>Наша цель - создать программу, который запрашивает имя пользователя и выводит приветствие с введёным именем.</b>
+        
+        <br><br><br>
+        
+        Всем доброго время суток! Сегодня мы напишем первую мега простую программу. А какую? Вы уже наверняка поняли из нашей цели.
+        
+        <br><br><br>
+        
+        <center><b>Давайте-же начнём!</b></center></p>
+
+        <br><br><br>
+
+        Первым делом открываем IDE для python, это может быть и Visual Studio и Visual Studio Code и PyCharm и многие другие среды разработки. Я-же
+        использую Visual Studio Code.<br><br>
+
+        Вторым шагом мы создаём файл, называйте его как хотите, я-же назову его programma.py (не забываем прописать расширение .py!)<br><br>
+
+        <br><br>
+
+        <div class="image">
+            <center><img src="../img/add_file.png"></center>
+        </div>
+
+         <br><br>
+
+        Всё, файл создан!<br><br>
+
+        Теперь мы в программе создаём переменную, допустим мы его назовём what, и в ней мы пишем: input('Какое у Вас имя? - ')<br><br>
+
+        <br><br>
+
+        <div class="image">
+            <center><img src="../img/add_per.png"></center>
+        </div>
+
+        <br><br>
+
+        Теперь мы пишем функцию print() и вней записываем:
+        <br><br><b>'Привет!' + str(what) + '!'</b><br><br>
+        Вообще можно и проще сделать, вместо того, что мы прописали <b>print('Привет, ' + str(what) + '!')</b>, мы запишем вот это: print(f'Привет, {what}!') <- так
+        мы использовали f строку. (про f строки читайте <a href="https://python-scripts.com/f-strings"><b>здесь</b></a>)
+
+        <br><br><br>
+
+        <div class="image">
+            <center><img src="../img/add_print.png"></center>
+        </div>
+        
+        <br><br><br>
+
+        <center><b>Всё! Программа готова! Только сохранить не забудьте :)</b></center>
+
+        <br><br>
+
+        <center><b>Результат</b></center>
+
+        <br><br>
+
+        <div class="image">
+            <center><img src="../img/itog.png"></center>
+        </div>
+
+
+
+        <br><br><br><br>
+
+        <hr>
+
+        <br><br><br><br>
+        
+
+
+        <center><b>Вывод сообщения об фейковой ошибке | Visual Basic</b></center>
+
+        <br><br><br><br>
+
+        Доброго время суток! Сейчас мы научимся выводить сообщение об фейковой ошибке.<br><br>
+
+        Для начала создадим текстовый файл. Далее мы пишем вот это:
+        <br><b>x = msgbox("Windows is infected :(", 0+16, "")</b>
+
+        <br><br><br>
+        <center><img src="../img/notepad.png"></center>
+        <br><br><br>
+
+        Синтаксис сценария:
+        <br><b>x = msgbox("Сама проблема", числовое/ые выражение/я, "Автор")</b><br><br>
+
+        Получается мы использовали комбинацию чисел, чтобы сделать диалоговое окно о критической ошибке и с кнопкой "Ок". Там где 0+16 - это числовые выражения постоянных, отвечающие за выводимые кнопки, значки и режимы окна. Вот весь список:<br><br>
+
+        <b>
+0 (кнопка ОК)<br>
+1 (кнопки OK and Отмена)<br>
+2 (кнопки Прервать, Повтор и Пропустить)<br>
+3 (кнопки Да, Нет, Отмена)<br>
+4 (кнопки Да и Нет)<br>
+5 (кнопки Заново и Отменить)<br>
+16 (значок критической ошибки)<br>
+32 (значок помощи)<br>
+48 (значок предупреждения)<br>
+64 (значок информации)<br>
+256 (вторая кнопка по умолчанию)<br>
+512 (третья кнопка по умолчанию)<br>
+768 (четвёртая кнопка по умолчанию)<br>
+4096 (окно будет постоянно мешаться, перекрывая остальные окна других программ, пока пользователь не отреагирует)<br>
+262144 (поверх других окон)<br>
+524288 (текст сообщения выводится от правой части окна)<br>
+        </b><br><br>
+
+        <b>Список числовых выражений постоянных взята от сюда - <a href="https://computer76.ru/2014/08/07/how_to_create_pop_ups/">https://computer76.ru/2014/08/07/how_to_create_pop_ups/</a></b>
+
+        <br><br>
+        Числовые выражения также можно объеденять. Например: 0+16 (там где 0 - окно будет с кнопкой "Ок", там где 16 - будет окно о критической ошибке)
+        <br><br>
+
+        Сохраняем наш файл с расширением .vbs (сохранить как -> название файла.vbs, все файлы "*", кодировка - ANSII(если присутствует кирилица))<br><br>
+
+        <center><b>Что у нас вышло</b></center>
+
+        <br><br><br>
+        <center><img src="../img/error.png"></center>
+        <br><br><br>
+
+        <center><b>Примеры</b></center>
+        <br><br>
+
+        <a href="../vbs/error.vbs" download=""><b>Окно об ошибке</b></a><br>
+        <a href="../vbs/warning.vbs" download=""><b>Окно о предупреждении</b></a><br>
+        <a href="../vbs/info.vbs" download=""><b>Окно об информации</b></a><br>
+        <a href="../vbs/help.vbs" download=""><b>Окно о справке</b></a><br>
+
+
+
+
+        <br><br> <hr> <br><br>
+
+        <center><a href="../guids/guids.html"><b>Гайды</b></a></center>
+        <br>
+        <center><a href="../reccomneds/rec.html"><b>Советы</b></a></center>
+        <br>
+        <center><a href="../index.html"><b>Главная</b></a></center>
+        <br>
+        <center><a href="../my_blender_projects/my_blender_projects.html"><b>Blender проекты</b></a></center><br>
+        <br>
+
+    </body>
+</html>

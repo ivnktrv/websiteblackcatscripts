@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@300;400&family=Spline+Sans+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+
+    overflow-x: hidden;
+    height: auto;
+    width: auto;
+    background: linear-gradient(100deg, rgb(100, 100, 100) 50%, rgb(0, 0, 0) 100%);
+    animation: gradient 6s infinite linear;
+    background-size: 500%;
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+a:hover {
+
+    color: gray;
+}
+
+
+#main {
+
+    animation: ani 2.5s forwards;
+    font-size: 150px;
+    font-family: 'Spline Sans Mono', monospace;
+    text-shadow: 
+        0 0 10px rgba(207, 207, 207, 0.85),
+        0 0 15px rgba(179, 179, 179, 0.85),
+        0 0 30px rgba(169, 169, 169, 0.85),
+        0 0 48px rgba(143, 143, 143, 0.85),
+        0 0 62px rgba(123, 123, 123, 0.85),
+        0 0 80px rgba(84, 84, 84, 0.85),
+        0 0 98px rgba(60, 60, 60, 0.85);
+    
+    max-width: 100%;
+    transition: 1s;
+
+}
+
+@keyframes ani {
+
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#info {
+
+    font-size: 50px;
+
+    background: linear-gradient(120deg, rgb(180, 180, 180) 10%, rgb(0, 0, 0) 100%);
+    padding: 5px;
+    border: 5px solid white;
+    margin-left: 5%;
+    margin-right: 6%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+
+}
+
+img {
+
+    max-width: 80%;
+    border-radius: 20px;
+    box-shadow: 10px, 10px, 50px black;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+img:hover {
+
+    transform: scale(1.2);
+}
